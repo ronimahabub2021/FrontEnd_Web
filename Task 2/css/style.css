@@ -1,0 +1,52 @@
+.navbar { transition: all 0.3s; }
+.nav-link:hover { color: #ffc107!important; }
+
+.student{
+      height: 200px;
+   object-fit: cover;
+}
+
+/* footer */
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 3rem 0;
+  }
+
+  .social-icons a {
+    font-size: 1.25rem;
+  }
+
+  /* about */
+
+  .about-images, .staff-img, .food-img{
+  height: 200px;
+   object-fit: cover;
+}
+
+/* faq */
+
+.accordion-button.faq-btn {
+    background-color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s ease;
+  }
+
+  .accordion-button.faq-btn:hover {
+    background-color: #e2e6ea;
+  }
+
+  .accordion-body {
+    background-color: #fff;
+    border-radius: 0 0 0.3rem 0.3rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .accordion-item {
+    border: none;
+    background-color: transparent;
+  }
